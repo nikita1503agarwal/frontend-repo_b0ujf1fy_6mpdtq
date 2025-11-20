@@ -3,12 +3,14 @@ import Hero from './components/Hero'
 import Features from './components/Features'
 import Showcase from './components/Showcase'
 import CTA from './components/CTA'
+import Cursor from './components/Cursor'
 
 function App() {
   return (
     <div className="min-h-screen bg-[#020B20] text-white relative">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(80%_60%_at_50%_-10%,rgba(0,92,255,0.15),transparent),radial-gradient(70%_50%_at_100%_0%,rgba(126,215,255,0.12),transparent)]" />
 
+      <Cursor />
       <Navbar />
       <main className="relative">
         <Hero />
